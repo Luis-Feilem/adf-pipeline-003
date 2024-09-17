@@ -1,0 +1,12 @@
+{
+	"name": "SourceHttpService",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://teams.microsoft.com/l/message/19:meeting_YzMyYWQ3MGItYzAxNS00Njc0LWJjYzktZjE0YzUwMDUyZDIz@thread.v2/1726565677852?context=%7B%22contextType%22%3A%22chat%22%7D",
+			"enableServerCertificateValidation": false,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
