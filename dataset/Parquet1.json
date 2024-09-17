@@ -1,22 +1,18 @@
 {
-	"name": "DelimitedText2",
+	"name": "Parquet1",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "SourceStorageLinkedService",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "DelimitedText",
+		"type": "Parquet",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "811dc327-cccb-4782-b18b-ab1b15c98db7",
-				"container": "raw"
+				"container": "defined"
 			},
-			"columnDelimiter": ",",
-			"escapeChar": "\\",
-			"firstRowAsHeader": true,
-			"quoteChar": "\""
+			"compressionCodec": "snappy"
 		},
 		"schema": []
 	}
