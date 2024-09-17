@@ -1,5 +1,5 @@
 {
-	"name": "RawParquet",
+	"name": "SourceParquet",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "SourceStorageLinkedService",
