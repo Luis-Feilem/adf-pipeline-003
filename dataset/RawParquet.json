@@ -1,0 +1,18 @@
+{
+	"name": "RawParquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
