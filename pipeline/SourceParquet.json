@@ -53,7 +53,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "RawParquet",
+						"referenceName": "SourceParquet",
 						"type": "DatasetReference"
 					}
 				]
